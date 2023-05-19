@@ -35,7 +35,7 @@
 // export default SearchBar;
 
 
-import { useState } from "react";
+import { useState } from "react"; // import library
 import {employees} from '../assets/employees';
 import './SearchBar.css';
 import {FaSearch} from "react-icons/fa";
@@ -89,7 +89,7 @@ function SearchBar(){
                 (
                     // user.name.toLowerCase().includes(query)).map((user)=>(
                     <li key={user.id} className="listItem">
-                        {user.name}
+                        {user.name} 
                     </li>
                 ))}
             </ul>
