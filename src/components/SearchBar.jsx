@@ -85,11 +85,12 @@ function SearchBar(){
                 ))}
             </ul> */}
             <ul className="list">
-                {employees.map((user)=>
-                (
+                {employees.map((user)=>(
                     // user.name.toLowerCase().includes(query)).map((user)=>(
                     <li key={user.id} className="listItem">
-                        {user.name} 
+                        {user.name} <br></br>
+                        {user.designation} <br></br>
+                        {user.skills}
                     </li>
                 ))}
             </ul>
